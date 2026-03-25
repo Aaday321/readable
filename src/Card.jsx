@@ -2,9 +2,10 @@ export default function Card(props){
     const name = props.name
     const health = props.health
     return (
-        <div >
+        <div>   
+            <p>Name and Health:</p>
            <p> {name} </p>
-           <p> Health: {health}</p>
+           <p> {health}</p>
         </div>
     )
 }
